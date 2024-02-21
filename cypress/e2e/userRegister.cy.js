@@ -25,7 +25,7 @@ beforeEach(() => {
 })
 
   it('user register succesfull', () => {
-    //register es el objeto pom y registerOk la BD json
+    //register es el objeto pom y registerOk la BBDD json
     register.personalInfo(registerOk.name,registerOk.lastname,registerOk.email)
     register.gender(registerOk.gender)
     register.personalInfo2(registerOk.mobile,registerOk.subject,registerOk.hobbie)
